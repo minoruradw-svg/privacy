@@ -27,15 +27,15 @@
 <body>
 <div class="wrap">
   <h1>プライバシーポリシー / Privacy Policy</h1>
-  <div class="sub">スクショで翻訳 (Screenshot Translator) — Android ／ 最終更新日 Last updated: 2026-07-03</div>
+  <div class="sub">スクショで翻訳 (Screenshot Translator) — Android ／ 最終更新日 Last updated: 2026-07-22</div>
 
   <span class="lang">日本語</span>
 
   <h3>はじめに</h3>
-  <p>「スクショで翻訳」（以下「本アプリ」）は、<strong>文字認識（OCR）と翻訳をすべてお使いの端末内で行う</strong>翻訳アプリです。<strong>翻訳する画像・テキスト・翻訳結果を、開発者や第三者のサーバーへ送信することはありません</strong>。本アプリにはアカウント登録もログインもありません。ただし、本アプリは（1）任意で視聴できる<strong>リワード広告（AdMob）</strong>と、（2）初回のみ必要な<strong>翻訳モデルのダウンロード</strong>のためにインターネットを使用します。詳細は以下のとおりです。</p>
+  <p>「スクショで翻訳」（以下「本アプリ」）は、<strong>文字認識（OCR）と翻訳をすべてお使いの端末内で行う</strong>翻訳アプリです。<strong>翻訳する画像・テキスト・翻訳結果を、開発者や第三者のサーバーへ自動的に送信することはありません</strong>（利用者ご自身が任意で「訳の報告」を送信する場合を除きます。その場合も<strong>画像は送信されません</strong>／第6項）。本アプリにはアカウント登録もログインもありません。ただし、本アプリは（1）任意で視聴できる<strong>リワード広告（AdMob）</strong>と、（2）初回のみ必要な<strong>翻訳モデルのダウンロード</strong>のためにインターネットを使用します。詳細は以下のとおりです。</p>
 
   <h2>1. 本アプリが収集・送信する情報</h2>
-  <p><strong>翻訳の内容（画像・テキスト・翻訳結果）については、収集・外部送信を一切行いません。</strong> 文字認識と翻訳はすべて端末内（Google ML Kit のオンデバイス機能）で処理されます。本アプリ自身による利用状況の解析（テレメトリ）も行いません。</p>
+  <p><strong>翻訳の内容（画像・テキスト・翻訳結果）を、本アプリが自動的に収集・外部送信することはありません。</strong> 文字認識と翻訳はすべて端末内（Google ML Kit のオンデバイス機能）で処理されます。本アプリ自身による利用状況の解析（テレメトリ）も行いません。<strong>唯一の例外は、利用者ご自身が「訳の報告」を送信する操作をした場合のみです（第6項をご覧ください。この場合も画像は送信されません）。</strong></p>
 
   <h2>2. 広告について（AdMob）</h2>
   <p>本アプリは、無料の翻訳回数を回復するための<strong>リワード広告のみ</strong>を表示します。広告は<strong>利用者が「広告を見る」を選んだときにだけ</strong>再生され、常時表示されるバナー等はありません。</p>
@@ -59,6 +59,8 @@
   <ul>
     <li>選択した翻訳ペア（言語の向き）、各種設定</li>
     <li>1日の無料翻訳の残り回数などの利用カウント</li>
+    <li>「育てる辞書」（あなたが「訳を修正」で登録した用語・言い換え）</li>
+    <li>未送信の「訳の報告」（送信するかどうかは利用者が決めます／第6項）</li>
   </ul>
   <p>これらは本アプリをアンインストールするか、アプリのデータを削除すれば消去できます。翻訳した画像・結果を本アプリが履歴として自動保存することはありません（保存は利用者が「保存」を押したときにのみ、端末の写真フォルダへ保存されます）。</p>
 
@@ -69,19 +71,30 @@
     <li>翻訳結果の画像を「共有」すると、Android の共有シートが開き、<strong>利用者が選んだ送信先にのみ</strong>その画像が渡されます。送信先や送るかどうかは常に利用者が決定します。</li>
   </ul>
 
-  <h2>6. 本アプリが使用する権限</h2>
+  <h2>6. 訳の報告（任意・文字のみ）</h2>
+  <p>翻訳の品質を改善するため、利用者が「おかしいと報告」または「訳を修正」を行った内容を、<strong>利用者ご自身の操作で</strong>開発者に送信できる仕組みがあります。<strong>この送信は完全に任意であり、行わなくても本アプリのすべての機能をご利用いただけます。</strong></p>
+  <ul>
+    <li><strong>自動送信は一切行いません。</strong> 報告はいったん端末内にのみ保存され、利用者が設定画面から送信操作を行ったときにだけ送信されます。</li>
+    <li><strong>画像は送信されません。</strong> 送信されるのは、認識された原文のテキスト、翻訳結果のテキスト、利用者が入力した修正案、翻訳ペア（言語の向き）、アプリのバージョンのみです。</li>
+    <li><strong>送信前に、送る内容のすべてが画面に表示されます。</strong> 内容を確認したうえで、送信するかどうかを利用者が決められます。</li>
+    <li>送信は Google フォームを通じて行われ、ブラウザが開きます。フォームは<strong>メールアドレスを収集しない</strong>設定にしており、ログインは不要です。フォームの利用には Google のプライバシーポリシーが適用されます。</li>
+    <li>認識された原文には、元の画像に写っていた個人情報が含まれる可能性があります。<strong>個人情報が含まれる場合は送信しないでください</strong>（アプリ内の確認画面にも同じ注意を表示しています）。</li>
+    <li>いただいた内容は<strong>翻訳品質の改善のためにのみ</strong>利用し、第三者に販売・提供しません。</li>
+  </ul>
+
+  <h2>7. 本アプリが使用する権限</h2>
   <ul>
     <li><strong>写真・メディアへのアクセス</strong>：利用者が翻訳したい画像を選ぶため。</li>
     <li><strong>インターネット</strong>：リワード広告の表示と、初回のみの翻訳モデルのダウンロードのため。</li>
   </ul>
 
-  <h2>7. 子供のプライバシー</h2>
-  <p>本アプリは翻訳の内容を収集しません。広告は Google のポリシーに従って配信されます。本アプリは特定の年齢層を対象に個人情報を収集することはありません。</p>
+  <h2>8. 子供のプライバシー</h2>
+  <p>本アプリは翻訳の内容を自動的に収集しません（利用者ご自身が任意で送信する「訳の報告」を除きます／第6項）。広告は Google のポリシーに従って配信されます。本アプリは特定の年齢層を対象に個人情報を収集することはありません。</p>
 
-  <h2>8. 本ポリシーの変更</h2>
+  <h2>9. 本ポリシーの変更</h2>
   <p>本ポリシーを更新する場合があります。重要な変更がある場合は、本アプリの更新および本ページで告知します。</p>
 
-  <h2>9. お問い合わせ</h2>
+  <h2>10. お問い合わせ</h2>
   <p>本ポリシーや本アプリのプライバシーに関するお問い合わせは、以下までご連絡ください。<br>
   連絡先: <a href="mailto:minoruru.radw@gmail.com">minoruru.radw@gmail.com</a></p>
 
@@ -93,7 +106,7 @@
   <p>"Screenshot Translator" ("the App") is a translation app that performs <strong>character recognition (OCR) and translation entirely on your device</strong>. <strong>The images, text, and translation results you translate are never sent to the developer or any third-party server.</strong> There is no account or sign-in. However, the App uses the internet for two things: (1) optional <strong>rewarded ads (AdMob)</strong> you can choose to watch, and (2) a one-time <strong>download of the translation model</strong>. Details below.</p>
 
   <h2>1. Information the App Collects or Transmits</h2>
-  <p><strong>Regarding your translation content (images, text, and results): none is collected or transmitted.</strong> OCR and translation are performed entirely on your device (Google ML Kit on-device features). The App itself performs no usage analytics (telemetry).</p>
+  <p><strong>Your translation content (images, text, and results) is never collected or transmitted automatically by the App.</strong> OCR and translation are performed entirely on your device (Google ML Kit on-device features). The App itself performs no usage analytics (telemetry). <strong>The only exception is when you yourself choose to submit a translation report (see Section 6). Even then, no images are sent.</strong></p>
 
   <h2>2. Advertising (AdMob)</h2>
   <p>The App shows <strong>rewarded ads only</strong>, to restore your free translation count. Ads play <strong>only when you choose to watch one</strong>; there are no always-on banners.</p>
@@ -117,6 +130,7 @@
   <ul>
     <li>Your selected translation pair (language direction) and app settings</li>
     <li>Usage counters such as your remaining free translations for the day</li>
+    <li>Your "growing dictionary" (terms/rewordings you registered via "Fix translation")</li>
   </ul>
   <p>You can erase this by uninstalling the App or clearing its data. The App does not automatically keep a history of translated images or results (saving happens only to your device's photo folder when you tap "Save").</p>
 
@@ -127,19 +141,30 @@
     <li>Tapping "Share" on a result opens the Android share sheet, and the image is passed <strong>only to the destination you choose</strong>. You always decide where, and whether, to send it.</li>
   </ul>
 
-  <h2>6. Permissions Used</h2>
+  <h2>6. Translation Reports (optional, text only)</h2>
+  <p>To help improve translation quality, the App lets you send a report when you tap "Report" or "Fix translation" on a translated block. <strong>Sending is entirely optional, and every feature of the App works without it.</strong></p>
+  <ul>
+    <li><strong>Nothing is sent automatically.</strong> Reports are stored only on your device until you explicitly choose to send them from the Settings screen.</li>
+    <li><strong>No images are sent.</strong> Only the recognized source text, the translated text, any correction you typed, the language pair, and the app version are included.</li>
+    <li><strong>The full contents are shown on screen before sending</strong>, so you can review them and decide whether to proceed.</li>
+    <li>Sending opens your browser and uses a Google Form. The form is configured <strong>not to collect email addresses</strong>, and no sign-in is required. Google's Privacy Policy applies to your use of the form.</li>
+    <li>Recognized text may contain personal information that appeared in the original image. <strong>Please do not send reports that contain personal information</strong> (the same warning is shown in the App before sending).</li>
+    <li>Submitted content is used <strong>solely to improve translation quality</strong> and is never sold or shared with third parties.</li>
+  </ul>
+
+  <h2>7. Permissions Used</h2>
   <ul>
     <li><strong>Photos/Media access</strong>: so you can pick the image you want to translate.</li>
     <li><strong>Internet</strong>: for rewarded ads and the one-time translation-model download.</li>
   </ul>
 
-  <h2>7. Children's Privacy</h2>
-  <p>The App does not collect translation content. Ads are served under Google's policies. The App does not collect personal information from any specific age group.</p>
+  <h2>8. Children's Privacy</h2>
+  <p>The App does not collect translation content automatically (except for translation reports you yourself choose to submit — see Section 6). Ads are served under Google's policies. The App does not collect personal information from any specific age group.</p>
 
-  <h2>8. Changes to This Policy</h2>
+  <h2>9. Changes to This Policy</h2>
   <p>We may update this policy. We will announce material changes through an app update and on this page.</p>
 
-  <h2>9. Contact</h2>
+  <h2>10. Contact</h2>
   <p>For questions about this policy or the App's privacy, please contact:<br>
   Contact: <a href="mailto:minoruru.radw@gmail.com">minoruru.radw@gmail.com</a></p>
 </div>
